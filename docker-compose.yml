@@ -18,6 +18,7 @@ services:
       - INSTANCE_ID=
     volumes:
       - "./config/jwt:/sw6/config/jwt"
+      - "./custom:/sw6/custom"
       - "./public/bundles:/sw6/public/bundles"
       - "./public/media:/sw6/public/media"
       - "./public/sitemap:/sw6/public/sitemap"
