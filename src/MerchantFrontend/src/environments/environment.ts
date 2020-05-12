@@ -3,11 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
+  production: true,
   hubspotPortalId: '',
   hubspotFormId: '',
-  apiUrl: 'http://localhost:8000',
-  accessKey: 'SWSCR2FPWJDMWU9HEXZLMTVWUG'
+  apiUrl: 'https://marktplatz.zehlendorf.com',
+  accessKey: 'SWSCCGXXWKRNBFHENVF3SDF4YQ'
 };
 
 /*
